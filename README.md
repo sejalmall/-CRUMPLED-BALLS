@@ -1,25 +1,3 @@
-class dus
-
-const Engine = Matter.Engine;
-const World = Matter.World;
-const Bodies = Matter.Bodies;
-const Body = Matter.Body;
-const Render = Matter.Render;
-var dustbinObj, paperObject,groundObject	
-var world;
-
-function setup() {
-	createCanvas(1600, 700);
-	rectMode(CENTER);
-
-var options = {
-	isStatic:false,
-	resititution:0.3,
-	friction:0.5,
-	density:1.2
-}
-
-engine = Engine.create();
 class dustbin{
 	constructor (x, y){
 		this.x=x;
